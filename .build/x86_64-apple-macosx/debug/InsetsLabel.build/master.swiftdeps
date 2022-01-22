@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "c2657eeeb6cab01edeeb293e79979fc400d803e13185dc0ba38a236d5699d78f"
+build_start_time: [1642877691, 486179828]
+build_end_time: [1642877691, 860992908]
+inputs:
+  "/Users/gilbertandreifloarea/Work/InsetsLabel/Sources/InsetsLabel/InsetsLabel.swift": [1642877688, 880426406]
