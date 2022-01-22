@@ -1,0 +1,4 @@
+module InsetsLabel {
+    header "/Users/gilbertandreifloarea/Work/InsetsLabel/.build/x86_64-apple-macosx/debug/InsetsLabel.build/InsetsLabel-Swift.h"
+    requires objc
+}
