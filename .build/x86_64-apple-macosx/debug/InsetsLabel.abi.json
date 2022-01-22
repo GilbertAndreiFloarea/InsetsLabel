@@ -1,0 +1,758 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "InsetsLabel"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "InsetsLabel"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "InsetsLabel"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "InsetsLabel",
+      "printedName": "InsetsLabel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "topInset",
+          "printedName": "topInset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(py)topInset",
+          "mangledName": "$s11InsetsLabelAAC8topInset12CoreGraphics7CGFloatVvp",
+          "moduleName": "InsetsLabel",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBInspectable",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)topInset",
+              "mangledName": "$s11InsetsLabelAAC8topInset12CoreGraphics7CGFloatVvg",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)setTopInset:",
+              "mangledName": "$s11InsetsLabelAAC8topInset12CoreGraphics7CGFloatVvs",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11InsetsLabelAAC8topInset12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s11InsetsLabelAAC8topInset12CoreGraphics7CGFloatVvM",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bottomInset",
+          "printedName": "bottomInset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(py)bottomInset",
+          "mangledName": "$s11InsetsLabelAAC11bottomInset12CoreGraphics7CGFloatVvp",
+          "moduleName": "InsetsLabel",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBInspectable",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)bottomInset",
+              "mangledName": "$s11InsetsLabelAAC11bottomInset12CoreGraphics7CGFloatVvg",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)setBottomInset:",
+              "mangledName": "$s11InsetsLabelAAC11bottomInset12CoreGraphics7CGFloatVvs",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11InsetsLabelAAC11bottomInset12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s11InsetsLabelAAC11bottomInset12CoreGraphics7CGFloatVvM",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "leadingInset",
+          "printedName": "leadingInset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(py)leadingInset",
+          "mangledName": "$s11InsetsLabelAAC12leadingInset12CoreGraphics7CGFloatVvp",
+          "moduleName": "InsetsLabel",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBInspectable",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)leadingInset",
+              "mangledName": "$s11InsetsLabelAAC12leadingInset12CoreGraphics7CGFloatVvg",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)setLeadingInset:",
+              "mangledName": "$s11InsetsLabelAAC12leadingInset12CoreGraphics7CGFloatVvs",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11InsetsLabelAAC12leadingInset12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s11InsetsLabelAAC12leadingInset12CoreGraphics7CGFloatVvM",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "trailingInset",
+          "printedName": "trailingInset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(py)trailingInset",
+          "mangledName": "$s11InsetsLabelAAC13trailingInset12CoreGraphics7CGFloatVvp",
+          "moduleName": "InsetsLabel",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBInspectable",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)trailingInset",
+              "mangledName": "$s11InsetsLabelAAC13trailingInset12CoreGraphics7CGFloatVvg",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)setTrailingInset:",
+              "mangledName": "$s11InsetsLabelAAC13trailingInset12CoreGraphics7CGFloatVvs",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11InsetsLabelAAC13trailingInset12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s11InsetsLabelAAC13trailingInset12CoreGraphics7CGFloatVvM",
+              "moduleName": "InsetsLabel",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "drawText",
+          "printedName": "drawText(in:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)drawTextInRect:",
+          "mangledName": "$s11InsetsLabelAAC8drawText2inySo6CGRectV_tF",
+          "moduleName": "InsetsLabel",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "drawTextInRect:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "intrinsicContentSize",
+          "printedName": "intrinsicContentSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(py)intrinsicContentSize",
+          "mangledName": "$s11InsetsLabelAAC20intrinsicContentSizeSo6CGSizeVvp",
+          "moduleName": "InsetsLabel",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "intrinsicContentSize",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)intrinsicContentSize",
+              "mangledName": "$s11InsetsLabelAAC20intrinsicContentSizeSo6CGSizeVvg",
+              "moduleName": "InsetsLabel",
+              "overriding": true,
+              "isOpen": true,
+              "objc_name": "intrinsicContentSize",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom",
+                "Override"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bounds",
+          "printedName": "bounds",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(py)bounds",
+          "mangledName": "$s11InsetsLabelAAC6boundsSo6CGRectVvp",
+          "moduleName": "InsetsLabel",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "bounds",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGRect",
+                  "printedName": "CoreGraphics.CGRect",
+                  "usr": "c:@S@CGRect"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)bounds",
+              "mangledName": "$s11InsetsLabelAAC6boundsSo6CGRectVvg",
+              "moduleName": "InsetsLabel",
+              "overriding": true,
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "bounds",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom",
+                "Override"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGRect",
+                  "printedName": "CoreGraphics.CGRect",
+                  "usr": "c:@S@CGRect"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)setBounds:",
+              "mangledName": "$s11InsetsLabelAAC6boundsSo6CGRectVvs",
+              "moduleName": "InsetsLabel",
+              "overriding": true,
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setBounds:",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom",
+                "Override"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "InsetsLabel",
+              "printedName": "InsetsLabel.InsetsLabel",
+              "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)initWithFrame:",
+          "mangledName": "$s11InsetsLabelAAC5frameABSo6CGRectV_tcfc",
+          "moduleName": "InsetsLabel",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "InsetsLabel.InsetsLabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "InsetsLabel",
+                  "printedName": "InsetsLabel.InsetsLabel",
+                  "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel(im)initWithCoder:",
+          "mangledName": "$s11InsetsLabelAAC5coderABSgSo7NSCoderC_tcfc",
+          "moduleName": "InsetsLabel",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@InsetsLabel@objc(cs)InsetsLabel",
+      "mangledName": "$s11InsetsLabelAAC",
+      "moduleName": "InsetsLabel",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "IBDesignable",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UILabel",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UILabel",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
